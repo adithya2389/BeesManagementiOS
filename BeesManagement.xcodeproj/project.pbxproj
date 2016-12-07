@@ -125,16 +125,9 @@
 		0FAFE87F1DF87C0F0001A28A /* BeesManagement */ = {
 			isa = PBXGroup;
 			children = (
-				0FAFE8801DF87C0F0001A28A /* AppDelegate.swift */,
-				0FAFE8841DF87C0F0001A28A /* Main.storyboard */,
-				0FAFE8871DF87C0F0001A28A /* Assets.xcassets */,
-				0FAFE8891DF87C0F0001A28A /* LaunchScreen.storyboard */,
-				0FAFE88C1DF87C0F0001A28A /* Info.plist */,
-				0FAFE8B21DF883620001A28A /* LoginViewController.swift */,
-				0FAFE8B41DF887050001A28A /* DetailsViewController.swift */,
-				0FAFE8B61DF88E7B0001A28A /* NetworkManager.swift */,
-				0FAFE8B81DF8A4340001A28A /* EmployeeCellTableViewCell.swift */,
-				0FAFE8BA1DF8A5040001A28A /* Employee.swift */,
+				0FDFDDC81DF8C042004A42C1 /* Views */,
+				0FDFDDC71DF8BFF8004A42C1 /* Network */,
+				0FDFDDC91DF8C05C004A42C1 /* Resources */,
 			);
 			path = BeesManagement;
 			sourceTree = "<group>";
@@ -155,6 +148,37 @@
 				0FAFE8A21DF87C0F0001A28A /* Info.plist */,
 			);
 			path = BeesManagementUITests;
+			sourceTree = "<group>";
+		};
+		0FDFDDC71DF8BFF8004A42C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFE8BA1DF8A5040001A28A /* Employee.swift */,
+				0FAFE8B61DF88E7B0001A28A /* NetworkManager.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		0FDFDDC81DF8C042004A42C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFE8B21DF883620001A28A /* LoginViewController.swift */,
+				0FAFE8B41DF887050001A28A /* DetailsViewController.swift */,
+				0FAFE8B81DF8A4340001A28A /* EmployeeCellTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0FDFDDC91DF8C05C004A42C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFE8801DF87C0F0001A28A /* AppDelegate.swift */,
+				0FAFE8841DF87C0F0001A28A /* Main.storyboard */,
+				0FAFE8871DF87C0F0001A28A /* Assets.xcassets */,
+				0FAFE8891DF87C0F0001A28A /* LaunchScreen.storyboard */,
+				0FAFE88C1DF87C0F0001A28A /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		18154C30B6D6FC2BB2E0052C /* Pods */ = {
